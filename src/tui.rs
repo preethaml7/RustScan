@@ -1,3 +1,5 @@
+//! Utilities for terminal output during scanning.
+
 /// Terminal User Interface Module for RustScan
 /// Defines macros to use
 #[macro_export]
@@ -87,10 +89,14 @@ macro_rules! funny_opening {
             "TCP handshake? More like a friendly high-five!",
             "Scanning ports: The virtual equivalent of knocking on doors.",
             "RustScan: Making sure 'closed' isn't just a state of mind.",
+            "RustScan: allowing you to send UDP packets into the void 1200x faster than NMAP",
             "Port scanning: Because every port has a story to tell.",
             "I scanned ports so fast, even my computer was surprised.",
+            "Scanning ports faster than you can say 'SYN ACK'",
             "RustScan: Where '404 Not Found' meets '200 OK'.",
             "RustScan: Exploring the digital landscape, one IP at a time.",
+            "TreadStone was here 🚀",
+            "With RustScan, I scan ports so fast, even my firewall gets whiplash 💨",
         ];
         let random_quote = quotes.choose(&mut rand::thread_rng()).unwrap();
 
